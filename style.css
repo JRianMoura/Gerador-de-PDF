@@ -1,0 +1,27 @@
+p{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+div{
+    max-width: 500px;
+}
+#content, #generate-pdf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+#content{
+    margin-bottom: 30px;
+}
+button{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #1bee3f;
+    color: #Fff;
+    font-weight: 600;
+    border: none;
+}
